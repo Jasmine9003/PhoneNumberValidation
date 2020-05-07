@@ -1,10 +1,24 @@
 # PhoneNumberValidation
 Verify if string is a phone number is of valid format
 
-### Project has 2 files: valid.py and test_valid1.py
+### Project has 2 files: valid.py, test_valid.py and test_valid1.py
 valid.py has the python code for checking if the string is of valid format, if yes, it is classified as Matching otherwise it is classified as Non-matching
 
-test_valid1.py is used for testing the valid.py file
+I have tested this using 2 testrunners- unittests and pytest
+
+- test_valid.py has the code using testrunner unittests
+it can be run using the 'python -m unittest test_valid.py' inside venv
+
+#### (venv) jasmine.dhunna@RWC-WS118 venv % python -m unittest test_valid.py
+................
+----------------------------------------------------------------------
+Ran 16 tests in 0.001s
+
+OK
+
+
+
+#### test_valid1.py is used for testing the valid.py file and uses test runner pytest
 - it imports pytest (to use this do : pip install pytest)
 - It also imports valid (import valid) which is actually my valid.py file where my python code is present
 - I have used pytest to test this script. 
