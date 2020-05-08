@@ -1,7 +1,7 @@
 # PhoneNumberValidation
 Verify if string is a phone number is of valid format
 
-### Project has 2 files: valid.py, test_valid.py and test_valid1.py
+### Project has 3 files: valid.py, test_valid.py and test_valid1.py
 valid.py has the python code for checking if the string is of valid format, if yes, it is classified as Matching otherwise it is classified as Non-matching
 
 I have tested this using 2 testrunners- unittests and pytest
