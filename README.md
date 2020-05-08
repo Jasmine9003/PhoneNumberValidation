@@ -5,12 +5,12 @@ Format1: (nnn)-nnn-nnnn
 Format2: nnnnnnnnnn
 
 Example: 
-(123) - 1234 - 1234 : Invalid 
-(123) - 1234 - 123a : Invalid
-123 - 1234 - 1234 : Invalid
-1231231234 : Valid
-123123123a : Invalid
-(123)-123-1234: valid
+- (123) - 1234 - 1234 : Invalid 
+- (123) - 1234 - 123a : Invalid
+- 123 - 1234 - 1234 : Invalid
+- 1231231234 : Valid
+- 123123123a : Invalid
+- (123)-123-1234: valid
 
 ## Requirements:
 - Python 3.8.2
