@@ -1,7 +1,29 @@
 # PhoneNumberValidation
 Verify if string is a phone number is of valid format
 
-### Project has 2 files: valid.py, test_valid.py and test_valid1.py
+Format1: (nnn)-nnn-nnnn
+Format2: nnnnnnnnnn
+
+Example: 
+- (123) - 1234 - 1234 : Invalid 
+- (123) - 1234 - 123a : Invalid
+- 123 - 1234 - 1234 : Invalid
+- 1231231234 : Valid
+- 123123123a : Invalid
+- (123)-123-1234: valid
+
+## Requirements:
+- Python 3.8.2
+- PyCharm community version
+- Clone the github project
+- pytest (pip install pytest) 
+Note: Please Make sure that you install pytest in venv
+- To run tests I used these commands: 
+  To use testrunner unittests, file is test_valid.py: COMMAND -> python -m unittest test_valid.py
+  To use testrunner pytest, file is test_valid1.py: COMMAND -> pytest -v
+- I have also added TestCase document, giving details on the test cases used.
+
+### Project has 3 files: valid.py, test_valid.py and test_valid1.py
 valid.py has the python code for checking if the string is of valid format, if yes, it is classified as Matching otherwise it is classified as Non-matching
 
 I have tested this using 2 testrunners- unittests and pytest
